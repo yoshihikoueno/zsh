@@ -100,6 +100,7 @@ alias v='vim'
 export PATH=~/Development/android-studio/bin:$PATH
 export PATH=~/sh:$PATH
 export PATH=~/.local/bin:$PATH
+export PATH=~/app:$PATH
 
 # added by Anaconda3 installer
 export PYTHONSTARTUP="/home/yoshihiko/.pythonrc"
