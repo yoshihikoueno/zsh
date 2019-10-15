@@ -2,7 +2,7 @@
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
 # Path to your oh-my-zsh installation.
-  export ZSH=/home/yoshihiko/Development/oh-my-zsh
+  export ZSH=$HOME/Development/oh-my-zsh
 
 export VIRTUAL_ENV_DISABLE_PROMPT=1
 # Set name of the theme to load. Optionally, if you set this to "random"
@@ -103,14 +103,14 @@ export PATH=~/.local/bin:$PATH
 export PATH=~/app:$PATH
 
 # added by Anaconda3 installer
-export PYTHONSTARTUP="/home/yoshihiko/.pythonrc"
+export PYTHONSTARTUP="$HOME/.pythonrc"
 
 
 # The next line updates PATH for the Google Cloud SDK.
-if [ -f '/home/yoshihiko/Development/google-cloud-sdk/path.zsh.inc' ]; then source '/home/yoshihiko/Development/google-cloud-sdk/path.zsh.inc'; fi
+if [ -f '$HOME/Development/google-cloud-sdk/path.zsh.inc' ]; then source '$HOME/Development/google-cloud-sdk/path.zsh.inc'; fi
 
 # The next line enables shell command completion for gcloud.
-if [ -f '/home/yoshihiko/Development/google-cloud-sdk/completion.zsh.inc' ]; then source '/home/yoshihiko/Development/google-cloud-sdk/completion.zsh.inc'; fi
+if [ -f '$HOME/Development/google-cloud-sdk/completion.zsh.inc' ]; then source '$HOME/Development/google-cloud-sdk/completion.zsh.inc'; fi
 
 export XDG_CONFIG_HOME=~/.config
 setopt nonomatch
